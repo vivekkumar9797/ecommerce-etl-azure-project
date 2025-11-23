@@ -1,0 +1,6 @@
+order_id,customer_id,amount,city,timestamp,payment_type
+1001,501,1299,Mumbai,2025-01-05 10:15:00,UPI
+1002,502,2599,Bangalore,2025-01-05 10:20:00,Credit Card
+1003,503,799,Hyderabad,2025-01-05 10:25:00,COD
+1004,504,1599,Pune,2025-01-05 10:40:00,UPI
+1005,505,999,Delhi,2025-01-05 10:45:00,Net Banking
