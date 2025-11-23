@@ -39,9 +39,8 @@ Power BI
 ├── architecture/           # Architecture diagram(s)
 ├── databricks_notebooks/   # PySpark notebooks for ETL
 ├── sample_data/            # Sample raw data used for testing
-├── screenshots/            # Architecture & pipeline screenshots
 ├── powerbi/                # Power BI report files
-
+├── screenshots/            # Architecture & pipeline screenshots
 └── README.md               # Project documentation
 
 🧪 Data Flow (Step-by-Step)
