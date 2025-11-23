@@ -38,8 +38,8 @@ Power BI
 ├── adf_pipelines/          # Contains ADF pipeline JSON exports
 ├── architecture/           # Architecture diagram(s)
 ├── databricks_notebooks/   # PySpark notebooks for ETL
-├── sample_data/            # Sample raw data used for testing
 ├── powerbi/                # Power BI report files
+├── sample_data/            # Sample raw data used for testing
 ├── screenshots/            # Architecture & pipeline screenshots
 └── README.md               # Project documentation
 
