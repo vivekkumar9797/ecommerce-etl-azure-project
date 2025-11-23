@@ -1,0 +1,23 @@
+{
+  "name": "CopyOrdersToRaw",
+  "properties": {
+    "activities": [
+      {
+        "name": "CopyOrders",
+        "type": "Copy",
+        "dependsOn": [],
+        "policy": { "timeout": "7.00:00:00", "retry": 3 },
+        "typeProperties": {
+          "source": { "type": "DelimitedTextSource" },
+          "sink": { "type": "DelimitedTextSink" }
+        },
+        "inputs": [
+          { "referenceName": "SourceOrders", "type": "DatasetReference" }
+        ],
+        "outputs": [
+          { "referenceName": "RawOrders", "type": "DatasetReference" }
+        ]
+      }
+    ]
+  }
+}
